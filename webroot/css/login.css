@@ -1,0 +1,173 @@
+/* CSS 
+   Put css under appropriate headers: Elements, Classes ,IDs
+*/
+
+/*Elements**********************************************************************************************************************************************************************/
+html
+{
+    color:#000;
+    background:#f8f8f8;
+    direction: ltr;
+}
+
+body
+{
+    font-family:arial,verdana,sans-serif,clean;
+    font-size:75%;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:400;
+    line-height:1.231;	
+    margin:0;
+}
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, img, dl, dt, dd, ol, ul, li, table, tr, td, form, object, embed, article, aside, canvas, command, details, fieldset, figcaption, figure, footer, group, header, hgroup, legend, mark, menu, meter, nav, output, progress, section, summary, time, audio, video 
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+form label
+{
+    display:block;
+    font-weight:700;
+    
+}
+
+input
+{  
+    min-width: 200px;
+    padding-top: 7px;
+    padding-bottom:7px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-top: 3px;
+    margin-bottom: 8px;
+}
+
+p
+{    
+    line-height: 17px;
+    margin: 0 0 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-size: 1.54em;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0 0 .46em;
+}
+
+ol, ul {
+    list-style: none;
+    line-height: 17px;
+    margin: 0 0 1em;
+    padding: 0;
+}
+
+li {
+    margin: 0 0 .5em;
+}
+/*Classes*******************************************************************************************************************************************************************/
+.loginBox  {    
+    background-color: #cccccc;      
+}
+
+.borderline
+{
+    background-image:url(/images/ebottomgrad.jpg);
+    background-repeat:repeat-x;
+}
+
+.header
+{
+    padding-left:4em;
+    padding-right:4em;
+    background-position:bottom;
+    min-height:7em;
+}
+.header .logo {
+    margin: 6px 0 0;
+    float: left;
+}
+.prodHead
+{
+    margin: 0 0 1.5em;
+}
+.prodHead h1
+{
+    font-size: 25px;
+    margin: 0 !important;
+    color: #06B;
+    font-weight: 700
+}
+.prodHead h2 {
+    font-size: 16px;
+    margin: .4em 0 0;
+    font-style: italic;
+    color: #006633;
+    font-family: Georgia,'Times New Roman',times,serif;
+}
+
+.features {
+    overflow: hidden;
+    margin: 2em 0 0;
+}
+
+.features li {
+    margin: 3px 0 5em;
+}
+
+.features img {
+    float: left;
+    margin: -3px 0 0;
+}
+
+.features .title {
+    font-size: 16px;
+    margin-bottom: .3em;
+}
+
+.features p {
+    margin: 0 0 0 68px;
+}
+
+.errormsg {
+    margin: .5em 0 0;
+    display: block;
+    color: #DD4B39;
+    line-height: 17px;
+}
+/*IDs***********************************************************************************************************************************************************************/
+/*Containers(divs)********/
+#Main  {     
+    padding-left:4em;
+    padding-right:4em;
+    background-position:bottom;    
+    min-height:8em;  
+}
+#Content  {    
+    padding: 20px;           
+    margin: 0 auto;
+    width: 1000px;
+    min-width: 1000px;    
+}
+
+#leftContent  {    
+    max-width: 700px;
+    min-width: 300px;
+    float:left;
+}
+
+#rightContent  {    
+    float:right;  
+    width: 270px;
+}
+
+#login  {        
+    padding: 20px;     
+    margin-top: 50px;
+}
+/*Components**************/
+
